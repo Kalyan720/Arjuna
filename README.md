@@ -1,12 +1,58 @@
-#Arjuna
+Arjuna - Dark Web Forensic Investigation Tool
+Arjuna is a comprehensive solution designed to investigate unauthorized data distribution on the dark web and mitigate the impact using machine learning algorithms. The tool focuses on deanonymizing uploaders of sensitive data and removing unauthorized content.
 
-Arjuna is a comprehensive all-in-one tool inspired by the Mahabharata character Arjuna, renowned for his precision and capability. 
+Key Features
+Dark Web Crawling: Arjuna efficiently crawls hidden sites, focusing on sensitive content like Personally Identifiable Information (PII), financial, and confidential data.
+Data Scraping: Extracts critical data such as metadata, images, and hidden information from dark web sources.
+Data Analysis: Leverages machine learning models, including Natural Language Processing (NLP) for data classification and anomaly detection.
+IP Deanonymization: Traces and de-anonymizes IP addresses linked to unauthorized content.
+Data Removal: Removes illegal data from the dark web and verifies its successful deletion.
+Report Generation: Generates detailed reports, summarizing collected data, deanonymization results, and actions taken.
+Project Phases
+Data Acquisition
 
-This tool encompasses the following functionalities:
-1. Establishes a Secure Tunnel: Creates a secretive and secure connection to the dark web.
-2. Conducts Extensive Crawling: Thoroughly explores the entire dark web to gather relevant data.
-3. Data Scraping: Extracts and compiles data from various dark web sources.
-4. Categorization and Integration: Classifies the extracted data and feeds it into a model for analysis.
-5. Owner Identification: Determines the identity of individuals who uploaded the data.
-6. Data Removal: Facilitates the removal of data from the dark web.
-7. Verification: Ensures the accuracy and effectiveness of the data removal process.
+Implement tunneling and crawling techniques.
+Develop automated scraping bots.
+Data Analysis
+
+Classify collected data using machine learning models (e.g., BERT).
+Employ advanced de-anonymization methods.
+Mitigation and Verification
+
+Remove unauthorized data and verify its removal.
+Functional Requirements
+Crawling
+
+Efficiently crawl dark web forums, marketplaces, and sites with CAPTCHAs.
+Handle obfuscation techniques and support customizable crawling parameters.
+Data Extraction
+
+Extract metadata, hidden data, and support various file formats (PDF, DOCX, HTML).
+Data Analysis
+
+Utilize machine learning to analyze data patterns.
+Visualize results for users and integrate external databases.
+IP Deanonymization
+
+Trace and de-anonymize IPs using geolocation and social network analysis.
+Data Removal
+
+Remove identified content based on predefined criteria and verify removal.
+Report Generation
+
+Export comprehensive reports in formats such as PDF and CSV for law enforcement.
+Non-Functional Requirements
+Storage: Scalable and secure storage for large datasets.
+EC2 Instance: Compute power to handle real-time processing, leveraging AWS EC2.
+GPU Machine: High-performance GPU for accelerating machine learning tasks.
+Cloud Infrastructure: Deployed on AWS for scalability, performance, and cost optimization.
+Legal and Ethical Considerations
+Compliance with data privacy laws (e.g., GDPR, CCPA).
+Ethical principles are followed in data collection and analysis.
+Preliminary Schedule
+Phase 1 (Oct 2024): Tunneling, crawling, and scraping development.
+Phase 2 (Nov 2024): Machine learning model integration and de-anonymization.
+Phase 3 (Dec 2024): Data removal, verification, and reporting.
+Appendices
+Tools: CRATOR, ACHE, TorBot
+References to dark web crawling techniques and resources.
